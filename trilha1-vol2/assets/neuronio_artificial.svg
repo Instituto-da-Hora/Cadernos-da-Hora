@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450"
+     width="800" height="450" style="background:#1A1A2E">
+  <style>
+    text { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>
+    </marker>
+  </defs><text x="400" y="40" text-anchor="middle" fill="#E8634A" font-size="22" font-weight="600">O Neurônio Artificial</text>
+<circle cx="100" cy="120" r="30" fill="none" stroke="#2AABB3" stroke-width="2"/>
+<text x="100" y="125" text-anchor="middle" fill="#2AABB3" font-size="18">x₁</text>
+<line x1="130" y1="120" x2="340" y2="230" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="235.0" y="163.0" text-anchor="middle" fill="#F4A393" font-size="13">w₁</text>
+<circle cx="100" cy="230" r="30" fill="none" stroke="#2AABB3" stroke-width="2"/>
+<text x="100" y="235" text-anchor="middle" fill="#2AABB3" font-size="18">x₂</text>
+<line x1="130" y1="230" x2="340" y2="230" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="235.0" y="218.0" text-anchor="middle" fill="#F4A393" font-size="13">w₂</text>
+<circle cx="100" cy="340" r="30" fill="none" stroke="#2AABB3" stroke-width="2"/>
+<text x="100" y="345" text-anchor="middle" fill="#2AABB3" font-size="18">x₃</text>
+<line x1="130" y1="340" x2="340" y2="230" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="235.0" y="273.0" text-anchor="middle" fill="#F4A393" font-size="13">w₃</text>
+<circle cx="370" cy="230" r="35" fill="none" stroke="#E8634A" stroke-width="2.5"/>
+<text x="370" y="238" text-anchor="middle" fill="#E8634A" font-size="24">Σ</text>
+<line x1="405" y1="230" x2="485" y2="230" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="490" y="205" width="80" height="50" rx="8" fill="none" stroke="#8B5CF6" stroke-width="2.5"/>
+<text x="530" y="236" text-anchor="middle" fill="#8B5CF6" font-size="18">f(·)</text>
+<line x1="570" y1="230" x2="650" y2="230" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+<circle cx="680" cy="230" r="30" fill="#E8634A" fill-opacity="0.2" stroke="#E8634A" stroke-width="2.5"/>
+<text x="680" y="236" text-anchor="middle" fill="#E8634A" font-size="18">ŷ</text>
+<text x="100" y="400" text-anchor="middle" fill="#2AABB3" font-size="12">entradas</text>
+<text x="240" y="400" text-anchor="middle" fill="#F4A393" font-size="12">pesos</text>
+<text x="370" y="400" text-anchor="middle" fill="#E8634A" font-size="12">soma</text>
+<text x="530" y="400" text-anchor="middle" fill="#8B5CF6" font-size="12">ativação</text>
+<text x="680" y="400" text-anchor="middle" fill="#E8634A" font-size="12">saída</text>
+</svg>
